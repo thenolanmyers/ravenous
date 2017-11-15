@@ -9,7 +9,6 @@ const sortByOptions = {
 
 class SearchBar extends React.Component {
   render() {
-    // TODO: verify call to this.renderSortByOptions() below should use parentheses
     return (
       <div className="SearchBar">
         <div className="SearchBar-sort-options">

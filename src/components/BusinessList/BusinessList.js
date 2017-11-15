@@ -8,7 +8,7 @@ class BusinessList extends React.Component {
       <div className="BusinessList">
         {
           // TODO: ask why a semicolon is not allowed at the end of this line.
-          this.props.businesses.map( b => <Business business={b} /> )
+          this.props.businesses.map( b => <Business business={b} /> );
         }
       </div>
     );
